@@ -5,29 +5,33 @@ Olimpia Milano - Cantù | 55-60 -->
 
 $array = [
     [
-        'casa' => 'yankees',
+        'casa' => 'yankees ',
         'punticasa' => '10',
-        'ospiti' => 'baltimora',
+        'ospiti' => ' baltimora',
         'puntiospiti' => '7',
     ],
     [
-        'casa' => 'cleverland',
+        'casa' => 'cleverland ',
         'punticasa' => '9',
-        'ospiti' => 'houston',
+        'ospiti' => ' houston',
         'puntiospiti' => '5',
     ],
     [
-        'casa' => 'yankees',
+        'casa' => 'yankees ',
         'punticasa' => '5',
-        'ospiti' => 'totonto',
+        'ospiti' => ' totonto',
         'puntiospiti' => '8',
     ],
     [
-        'casa' => 'houston',
+        'casa' => 'houston ',
         'punticasa' => '9',
-        'ospiti' => 'baltimora',
+        'ospiti' => ' baltimora',
         'puntiospiti' => '7',
     ]
-]
+];
+
+for($i = 0; $i < count($array); $i++){
+    echo '<pre>'.$array[$i]['casa'].$array[$i]['ospiti'].'|'.$array[$i]['punticasa'].'-'.$array[$i]['puntiospiti'].PHP_EOL.'</pre>';
+};
 
 ?>
